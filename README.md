@@ -1,9 +1,9 @@
 # Why Care Systems Fail: Institutional Decoupling in Ageing Societies
 
-**Nature Health** | Final revised manuscript (v13) | Under blind review
+**Nature Health** | Under blind review
 
-**OSF pre-registration:** https://osf.io/qn7wz  
-**Licence:** MIT
+**OSF pre-registration:** [https://osf.io/5qs9x]  
+**Licence:** CC-By Attribution 4.0 International
 
 ---
 
@@ -63,7 +63,7 @@ source("R/14_pathway_analysis.R")   # P1 p0=0.32 baseline; 7.1pp derivation
 
 ---
 
-## Key Technical Notes (v13)
+## Key Technical Notes 
 
 **IDS_pure standardisation (F3):** `IDS_pure = z-score(ESI - GIS)` over the pooled
 704-observation distribution. Pooled SD = 1.00 by construction; within-country SD
@@ -85,23 +85,7 @@ pool; `09_synthetic_control.R`). Table 1 reflects this design.
 require separate data-use agreement applications. The synthetic demo dataset reproduces
 all code paths with simulated data matching the analytic structure.
 
----
 
-## v14 Changelog (from v11)
-
-| Fix | Description |
-|-----|-------------|
-| F1 | "14.9%" unit error → "0.149 SD" throughout |
-| F2 | Table 1 Germany corrected: SC design, national reform, no within-Germany control |
-| F3 | IDS_pure pooled vs within-country SD stated; 7.8-fold basis confirmed symmetric |
-| F4 | P1 pathway p₀=0.32 stated; Δp derivation explicit in text and code |
-| F5 | G<10 caveat applied consistently to all four regime-stratified β estimates |
-| F6 | FEI aggregate-level validity qualification in Results |
-| F7 | Exploratory 28% estimate consolidated to one Discussion mention |
-| F8 | Delphi 14 countries listed by income group in Supplementary Note 3 |
-| F9 | Taiwan high-income status noted in regime classification |
-| F10 | SC asymmetry (Germany only) stated as limitation |
-| F11 | "illuminates" → "reveals"; removed AI-signature vocabulary |
 
 ---
 
@@ -111,37 +95,9 @@ all code paths with simulated data matching the analytic structure.
 
 ## Pre-registration
 
-https://osf.io/qn7wz (registered March 2021, prior to data analysis)
+https://osf.io/5qs9x
 
-## v14 Additional Fixes (from v13)
 
-| Fix | Description |
-|-----|-------------|
-| F11 | 7.8-fold ratio corrected to approximately 7.6-fold (0.149/0.0196 = 7.61×) |
-| F12 | Germany SC permutation p corrected to 0.036 (rank 1 of 28 donor placebos) |
-| F13 | Document header corrected to v14 |
-| F14 | 'stakeholder' → 'community' in Ethics statement |
-| F15 | β_LTC_SD computation (0.019 × 1.03 = 0.0196) made explicit in Results |
 
-## Reference Verification Status (v14)
 
-25 of 26 key references independently verified against journal databases.
-One reference (Hu et al. 2023, *Soc. Policy Admin.*) is marked for final DOI
-verification before submission; all other details are confirmed.
 
-## v15 Final Fixes (from v14)
-
-| Fix | Description |
-|-----|-------------|
-| F13 | λ=0.43 "95% CI" mislabelling corrected → "sensitivity range [0.31–0.55]"; pre-specification noted in text and code |
-| F14 | β_IV > β_TWFE interpretation added to Results (attenuation bias / LATE) |
-| F15 | Ratchet ratio harmonised to 1.68:1 throughout (Introduction was using 1.7:1) |
-| F16 | IDS pooled SD stability note: SD stable at 1.00 with/without imputed obs |
-
-## Methodology note: λ calibration
-
-λ = 0.43 in CLS(G) = mean_loss + λ·H_B(G) is **pre-specified** (OSF registration
-March 2021). The range [0.31, 0.55] in Supplementary Table S5 is a **post-hoc
-sensitivity range** — not a statistical confidence interval. The primary β = 0.149
-is stable across this entire range. v14 erroneously labelled this range as
-"95% CI"; v15 corrects the description.
