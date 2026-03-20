@@ -1,0 +1,49 @@
+{
+  "R": {
+    "Version": "4.3.1",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "here": {"Package": "here", "Version": "1.0.1", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "tictoc": {"Package": "tictoc", "Version": "1.2", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "tidyverse": {"Package": "tidyverse", "Version": "2.0.0", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "dplyr": {"Package": "dplyr", "Version": "1.1.3", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "tidyr": {"Package": "tidyr", "Version": "1.3.0", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "purrr": {"Package": "purrr", "Version": "1.0.2", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "readr": {"Package": "readr", "Version": "2.1.4", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "stringr": {"Package": "stringr", "Version": "1.5.1", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "haven": {"Package": "haven", "Version": "2.5.3", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "readxl": {"Package": "readxl", "Version": "1.4.3", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "lubridate": {"Package": "lubridate", "Version": "1.9.3", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "fixest": {"Package": "fixest", "Version": "0.11.2", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "lmtest": {"Package": "lmtest", "Version": "0.9-40", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "sandwich": {"Package": "sandwich", "Version": "3.0-2", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "fwildclusterboot": {"Package": "fwildclusterboot", "Version": "0.13.0", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "did": {"Package": "did", "Version": "2.1.2", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "bacondecomp": {"Package": "bacondecomp", "Version": "0.1.1", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "HonestDiD": {"Package": "HonestDiD", "Version": "0.2.5", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "Synth": {"Package": "Synth", "Version": "1.1-7", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "mediation": {"Package": "mediation", "Version": "4.5.0", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "EValue": {"Package": "EValue", "Version": "4.1.3", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "lavaan": {"Package": "lavaan", "Version": "0.6-17", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "semTools": {"Package": "semTools", "Version": "0.5-6", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "WeightIt": {"Package": "WeightIt", "Version": "0.14.2", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "cobalt": {"Package": "cobalt", "Version": "4.5.3", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "MASS": {"Package": "MASS", "Version": "7.3-60", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "modelsummary": {"Package": "modelsummary", "Version": "1.4.5", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "gt": {"Package": "gt", "Version": "0.10.0", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "kableExtra": {"Package": "kableExtra", "Version": "1.3.4", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "ggplot2": {"Package": "ggplot2", "Version": "3.4.4", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "patchwork": {"Package": "patchwork", "Version": "1.1.3", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "ggrepel": {"Package": "ggrepel", "Version": "0.9.4", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "scales": {"Package": "scales", "Version": "1.3.0", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "RColorBrewer": {"Package": "RColorBrewer", "Version": "1.1-3", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "broom": {"Package": "broom", "Version": "1.0.5", "Source": "Repository", "Repository": "CRAN", "Hash": ""},
+    "Cairo": {"Package": "Cairo", "Version": "1.6-2", "Source": "Repository", "Repository": "CRAN", "Hash": ""}
+  }
+}
