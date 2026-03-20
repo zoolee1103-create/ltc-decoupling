@@ -1,5 +1,0 @@
-boundary,mean_rating,sd_rating,icc_lower,icc_upper,n_panellists,rounds
-v1v2,3.48,0.61,0.74,0.87,36,3
-v2v3,3.15,0.67,0.71,0.85,36,3
-v3v4,2.82,0.74,0.69,0.84,36,3
-v4v5,3.55,0.58,0.72,0.86,36,3
